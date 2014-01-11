@@ -7,7 +7,7 @@ node_js:
 before_install:
   - "curl -o zookeeper-3.4.5.tar.gz http://apache.mirrors.tds.net/zookeeper/zookeeper-3.4.5/zookeeper-3.4.5.tar.gz"
   - "tar -zxf zookeeper-3.4.5.tar.gz"
-  - "./zookeeper-3.4.5/bin/zkServer.sh start"
+  - "sudo zookeeper-3.4.5/bin/zkServer.sh start"
 
 notifications:
   email:
