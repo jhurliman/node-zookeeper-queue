@@ -22,7 +22,7 @@ method on SubQueue to disconnect from ZooKeeper, which is done with the `end()`
 method on PubQueue.
 
 ```js
-var zkQueue = require('./');
+var zkQueue = require('zookeeper-queue');
 var ZKPubQueue = zkQueue.PubQueue; // Inherits from streams.Writable
 var ZKSubQueue = zkQueue.SubQueue; // Inherits from streams.Readable
 
