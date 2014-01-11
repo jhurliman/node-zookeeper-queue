@@ -46,7 +46,6 @@ var pubQueue = new ZKPubQueue(options)
   .on('error', function(err) {
     console.error('[PUB] An error occurred: ' + err);
   })
-  
   .on('connect', function() {
     console.log('[PUB] Connected. Writing "hello world" to the queue');
     pubQueue.write('hello world');
