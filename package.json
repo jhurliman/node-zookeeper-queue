@@ -1,0 +1,19 @@
+{
+  "name": "zookeeper-queue",
+  "version": "0.1.0",
+  "author": "John Hurliman <jhurliman@jhurliman.org> (http://jhurliman.org/)",
+  "description": "FIFO queue using ZooKeeper, implemented with node.js streams",
+  "keywords": ["zookeeper", "queue", "distributed", "streams"],
+  "license": "MIT",
+  "main": "./index",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "node-zookeeper-client": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.17.x"
+  }
+}
