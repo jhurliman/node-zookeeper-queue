@@ -8,7 +8,5 @@ mocha.reporter('spec').ui('tdd');
 mocha.addFile('test/basicPubSub.js');
 
 var runner = mocha.run(function(failures) {
-  process.on('exit', function() {
-    process.exit(failures);
-  });
+  process.exit(failures);
 });
