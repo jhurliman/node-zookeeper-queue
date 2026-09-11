@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — Unreleased
+## 1.0.0 — 2026-09-10
 
 - Require Node.js 22+ and update node-zookeeper-client to 1.1.
 - Drain writable buffers and preserve end(chunk) before closing; wait for initial readiness before writing.
